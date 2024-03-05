@@ -1,0 +1,37 @@
+{
+    "imName": "ResliceBinsbaInv_bcrop_median3d_rad2_320x716x420.raw",
+    "network_extraction_type":"cubic",
+    "imSize": 
+            { 
+                "x": 15, 
+                "y": 15,  
+                "z": 15 
+            },
+    "imperialPrefix":"reslice",
+    "cubic":{
+                "imResolution": 150e-9
+            },
+    "OpenPNM": 
+            {
+                "sigma": 2.5,
+                "imResolution":"",
+                "overlapFile": "openpnm_overlap.xlsx" 
+            },   
+    "Imperial": 
+            {   
+                "inputfilename":"input.mhd",            
+                "imResolution":0.29e-3,
+                "overlapFile": "Imperial_overlap.xlsx",
+                "outputDir": "C:\\Users\\Vishal.Metri\\Documents\\Work\\Catalyst_modeling\\Data\\imperial\\files\\",
+                "medialSurfaceSettings": 
+                                        {"clipROutx":0.05,
+                                         "clipROutyz":0.98,
+                                         "midRFrac": 0.7,
+                                         "RMedSurfNoise": 2.75,
+                                         "lenNf": 0.6,
+                                         "vmvRadRelNf": 1.1,
+                                         "nRSmoothing": 3,
+                                         "RCorsf": 0.15,
+                                         "RCors": 1.75} 
+            }  
+}
